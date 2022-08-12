@@ -1,0 +1,12 @@
+package com.example.spring.Controller;
+
+import com.example.spring.Database.TestBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class TestController {
+
+    @Autowired
+    private TestBean testBean;
+}
