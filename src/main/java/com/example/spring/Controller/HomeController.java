@@ -24,10 +24,11 @@ public class HomeController {
     // IoC - Inversion of control
     // DI - Dependency Injection
 
-    //changes from user 1
 
-    @Autowired
-    private TestBean testBean;
+
+    //changes from user 2
+
+
 
     @Qualifier(value = "testBean2")
     @Autowired TestBean testBean2;
